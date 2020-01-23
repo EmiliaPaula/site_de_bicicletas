@@ -10,6 +10,10 @@ p{
     line-height: 20px;
 }
 
+img{
+    display: block;
+}
+
 .btn{
     border: 3px solid #fec63e;
     padding: 10px 30px;
@@ -75,7 +79,7 @@ p{
 .header_menu ul li a{
     color: #000;
     font-weight: bold;
-    text-transform: uppercase;  /* Tudo el letra maiuscula */
+    text-transform: uppercase;  /* Tudo em letra maiuscula */
     letter-spacing: 1em;        /* Espaçamento entre o texto */
     font-size: 10px;
     line-height: 20px;
@@ -94,7 +98,7 @@ p{
     height: 380px;
     background: url("../img/bg.jpg") no-repeat center;
     background-size: cover;
-    margin-top: 96px;
+    margin-top: 92px;
     text-align: center;
     padding-top: 80px;
 }
@@ -152,7 +156,7 @@ p{
     letter-spacing: .1em;
 }
 
-.produtos_listas li h3::after{
+.produtos_listas li h3:after{
     content: "";
     display: block;
     width: 60px;
@@ -203,4 +207,117 @@ p{
 
 .portfolio .call p{
     color: #ffff;
+}
+
+/* Qualidade */
+
+.qualidade{
+    padding: 60px 0;
+}
+
+.qualidade img{
+    margin: 0 auto;
+}
+
+
+.qualidade_lista li{
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.qualidade_lista li h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 2px auto;
+}
+
+/* Quebra */
+
+.quebra{
+    width: 100%;
+    height: 220px;
+    background-image: url("../img/bg-footer.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;   /* Centralizando o texto na imagem */
+}
+
+.quebra .quote-externo{     /* Para o texto quebrar em duas linhas */
+    max-width: 400px;    
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    background: #000;
+    color: #ffff;
+    padding: 20px;
+}
+
+.footer h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px 0 12px 0;
+}
+
+.footer_historia{
+    padding-right: 40px;
+}
+
+.footer_contato ul li{   /* o ultimo, no caso "li", é oq esta sendo citado*/
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer_redes ul li{    /* Deixando lado a lado os icones*/
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redes ul li a{  /* Deixando a parte inteira do "a" clicavel para ir pra rede social*/
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+}
+
+.footer_redes ul li a:hover{
+    border-color: #ffff;
+}
+
+.copy{
+    width: 100%;
+    background: #fec63e;
+    padding: 20px 0;
+    display: block;
+}
+
+.copy p{
+    color: #000;
 }
