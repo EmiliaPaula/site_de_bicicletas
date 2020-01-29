@@ -55,6 +55,25 @@ img{
     margin: 8px auto;
 }
 
+.subtitulo-interno{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+}
+
 /* ESTILO HEADER */
 
 .header{
@@ -89,6 +108,10 @@ img{
 .header_menu ul li a:hover{
     color: #ffff;
     
+}
+
+.header_menu ul li a.menu_ativo{
+    color: #ffff;
 }
 
 /* INTRODUÇÃO */
@@ -139,11 +162,20 @@ img{
 
 /* INTRODUÇÃO INTERNA */      /* a partir da pagina SOBRE*/
 
-.introducao-interna{
-    width: 100%;
-    margin-top: 92px;
-    height: 160px;
-    background-size: cover;
+.introducao-interna h1{
+    font-size: 36px;
+    color: #ffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ffff;
+    margin: 6px auto 10px auto;
 }
 
 /* PRODUTOS */
@@ -285,7 +317,7 @@ img{
 /* FOOTER */
 
 .footer{
-    widows: 100%;
+    width: 100%;
     background: #000;
     color: #ffff;
     padding: 20px 0;
