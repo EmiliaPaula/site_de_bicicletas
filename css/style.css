@@ -12,6 +12,7 @@ p{
 
 img{
     display: block;
+    max-width: 100%;
 }
 
 .btn{
@@ -162,6 +163,15 @@ img{
 
 /* INTRODUÇÃO INTERNA */      /* a partir da pagina SOBRE*/
 
+.introducao-interna{
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    text-align: center;
+    color: #ffff;
+    padding-top: 30px;
+}
+
 .introducao-interna h1{
     font-size: 36px;
     color: #ffff;
@@ -187,6 +197,10 @@ img{
 .produtos_listas li{
     background: #fec63e;
     text-align: center;
+}
+
+.produtos_listas li img{
+    margin: 0 auto;
 }
 
 .produtos_listas li h3{
@@ -226,7 +240,7 @@ img{
     margin-bottom: 20px;
 }
 
-/* PORTFÓLIO */
+/* PORTFOLIO */
 
 .portfolio{
     width: 100%;
